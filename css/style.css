@@ -1,0 +1,67 @@
+#map {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+}
+#geocoder {
+	z-index: 1;
+	width: 100%;
+	text-align: center;
+	top: 20px;
+}
+.mapboxgl-ctrl-geocoder {
+	min-width: 100%;
+	width: 100% !important;
+	font-size: 15px;
+	line-height: 20px;
+	max-width: 100% !important;
+}
+
+body {
+	background-color: #f9f9f9;
+	color: #4d4d4d;
+}
+.form__container {
+	text-align: center;
+}
+
+button {
+	border: 0;
+	border-radius: 10px;
+	color: #fff;
+	padding: 0.5rem 2rem;
+	background-color: #f68657;
+	text-align: center;
+}
+
+.info .content {
+	background-color: #f68657;
+	border-radius: 30px;
+	color: #fff;
+	padding: 2rem;
+	text-align: center;
+}
+
+.content .title__city {
+	text-align: center;
+}
+
+.content span {
+	color: #d7ee1f;
+	font-size: 24px;
+	font-weight: bold;
+	padding-left: 0.5rem;
+}
+
+.content .weather__city {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+h2,
+h3,
+h4 {
+	margin-bottom: 0;
+}
